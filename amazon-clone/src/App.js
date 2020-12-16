@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header'
 import Login from './Login'
 import Home from './Home'
+import Orders from './Orders'
 import Payment from './Payment'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Checkout from './Checkout';
@@ -45,6 +46,11 @@ function App() {
         <Switch>
           <Route path='/login'>            
             <Login />
+          </Route>
+
+          <Route path='/orders'> 
+            <Header />  
+            <Orders />
           </Route>
 
           <Route path='/checkout'>
