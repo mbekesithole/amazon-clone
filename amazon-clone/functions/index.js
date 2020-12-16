@@ -1,8 +1,7 @@
 const functions = require('firebase-functions');
 const express = require('express')
 const cors = require('cors')
-const stripe = require('stripe')
-('sk_test_51HyuWzAdmfnlfY7bAMiShMVygV0KbixRCRunhORSXhp0Oq0GJdMXeAr31NFtjsFKDGoPGkqKwe7pwJCYPHVni2Kc00AkoV8VGh')
+const stripe = require('stripe')('sk_test_51HyuWzAdmfnlfY7bAMiShMVygV0KbixRCRunhORSXhp0Oq0GJdMXeAr31NFtjsFKDGoPGkqKwe7pwJCYPHVni2Kc00AkoV8VGh')
 
 // API setup
 
